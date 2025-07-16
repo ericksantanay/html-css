@@ -1,0 +1,12 @@
+@font-face{
+    font-family:'sakurata';
+    src: url(SAKURATA.ttf) format('truetype');
+}
+
+h1{
+    font-family: sakurata;
+}
+
+p{
+    font-family: sakurata;
+}

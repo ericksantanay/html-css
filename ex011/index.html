@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone-github.png" type="image/x-icon">
+    <title>Midias HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes</p>
+    
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.jpg" type="image/jpg">
+        <img src="imagens/foto-g.jpg" alt="imagem flexivel">
+    </picture>
+<h1>Colocando audio</h1>
+<audio src="midiia/We Wish You a Merry Christmas (Vocals) - Jingle Punks.mp3"controls></audio>
+
+
+<!--Outra opção caso o de cima nao for-->
+
+<audio preload="metadata" controls>                               <!--eu tenho que por o tipo do arquivo-->
+    <source src="midiia/Whirlpool - The Mini Vandals.mp3" type="audio/mpeg">
+    <p>nao foi possivel carregar esse arquivo clique no link para <a href="midiia/Whirlpool - The Mini Vandals.mp3  " type="dowload"></a>dowload </p>
+</audio>
+</body>
+</html>
