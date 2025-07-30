@@ -8,20 +8,21 @@
 <body>
     <h1>Exemplo de formulario</h1>
     <form action="cadastro.php" method="get" autocomplete="on">
-        <p>
-            <label for="iemal">E-mail</label>
-             <input type="email" name="email" id="iemal" autocomplete="email" required>
-        </p>
-
-        <p>
-            <label for="itel">Telefone</label>
-            <input type="tel" name="tel" id="itel" autocomplete="tel-national" pattern="^\(d{2}\)\{4,5}-\d{4}$" required>
-        </p>
-
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Resetar">
-        </p>
+        <fieldset>
+                <legend>Dados pessoais</legend>
+            <p>
+                <label for="iemal">E-mail</label>
+                 <input type="email" name="email" id="iemal" autocomplete="email" required>
+            </p>
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="tel" id="itel" autocomplete="tel-national" pattern="^\(d{2}\)\{4,5}-\d{4}$" required>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Resetar">
+            </p>
+        </fieldset>
     </form>
 </body>
 </html>
