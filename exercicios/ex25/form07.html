@@ -9,10 +9,27 @@
     <form action="cadastro.php" method="get" autocomplete="on">
         <h1>Exemplos de formulario</h1>
 
-        <p>
+        <div>
+            <label for="iest">Estado</label>
+            <select name="estado" id="iest">
+
+                <optgroup label="Estado">
+                    <option value="SP" selected>São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+
+                <option value="MA">Maranhão</option>
+                <option value="PE">Pernambuco</option>
+                <option value="RN">Rio Grande do Norte</option>
+
+            </select>
+        </div>
+
+        <div>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
-        </p>
+       </div>
     </form>
 </body>
 </html>
