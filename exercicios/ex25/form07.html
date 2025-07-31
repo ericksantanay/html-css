@@ -19,11 +19,25 @@
                     <option value="MG">Minas Gerais</option>
                 </optgroup>
 
-                <option value="MA">Maranhão</option>
-                <option value="PE">Pernambuco</option>
-                <option value="RN">Rio Grande do Norte</option>
-
+                <optgroup label="Estado">
+                    <option value="MA">Maranhão</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                </optgroup>
             </select>
+
+            <div>
+                <label for="iprof">Profissão</label>
+                <input type="text" name="prof" id="iprof" list="lstprof">
+                <datalist id="lstprof">
+                    <!--Sem value não aparece a abreviação que eu adiciono-->
+                    <option>Administração</option>
+
+                    <!--Com value-->
+                    <option value="DEV">Desenvolvedor</option>
+                </datalist>
+            </div>
+
         </div>
 
         <div>
