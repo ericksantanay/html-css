@@ -12,6 +12,42 @@ html{
     font-size: 1em;
 }
 
-header > h1{
-   color: aqua;
+header{
+     background-color: #999;
 }
+
+header >  h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+menu{
+     padding: 10px;
+    margin-bottom: 20px;
+}
+
+menu  li{
+    display: inline-block;
+    color: white;
+    background-color: rgba(136, 139, 141, 0.404);
+}
+
+menu  ul{
+    list-style-type: none;
+    background-color: rgba(136, 139, 141, 0.404);
+}
+
+li{
+    display: block;
+}
+
+main{
+    background-color: #ffffff;
+}
+
+article{
+    background-color: #999;
+    margin: auto;
+    width: 600px;
+}
+
