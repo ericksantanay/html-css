@@ -17,3 +17,7 @@ header > h1{
     color: blue;
     background-color: aqua;
 }
+
+menu{
+    display: none;
+}
