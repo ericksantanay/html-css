@@ -23,6 +23,6 @@ menu{
 }
 
 article::after{
-    content: 'Esse artigo bla, bla, bla, bla, bla';
+    content: 'Esse artigo foi impresso';
     color: blue;
 }
