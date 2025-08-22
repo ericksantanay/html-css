@@ -1,0 +1,23 @@
+/*Declaração Geral*/
+
+    /*È a estilização que eu fiz para todo o css*/  
+    
+    
+
+
+
+         /*Retrato*/
+            @media screen and (orientation: portrait){
+                
+            }
+
+
+
+
+            
+
+          /*Paisagem*/
+
+          @media screen and (orientation: landscape) {
+            
+          }
