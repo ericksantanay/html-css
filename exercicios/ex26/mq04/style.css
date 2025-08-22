@@ -18,6 +18,28 @@ tv: acima de 1200
 */
 
 /*
-@media screen and  {
+Esses daqui sao para celular e telas pequenas, eu só não vou deixar sem comentario porque se eu ja fiz o site para celular eu nao preciso por essas configurações.
+@media screen and (max-width:600px) {
+    
+}
+
+@media screen and (min-width:600px) and (max-width:768px){
+    
+}
+*/
+
+/*Para tablet*/
+@media screen and (min-width:768px) and (max-width: 992px){
+    
+}
+
+/*Para pc*/
+@media screen and (min-width:992px) and (max-width: 1200px) {
+    
+}
+
+
+/*Para tv*/
+@media screen and (min-width: 1200px) {
     
 }
