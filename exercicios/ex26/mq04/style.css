@@ -1,0 +1,23 @@
+/*Typcal device Breakpoints
+-----------------------------
+
+pequenas telas: ate 600px
+---------------------------
+
+celular: de 600px ate 768px
+----------------------------
+
+tablet: de  768px ate 992px
+----------------------------
+
+pc: de 992px ate 1200px 
+----------------------------
+
+tv: acima de 1200
+----------------------------
+*/
+
+/*
+@media screen and  {
+    
+}
