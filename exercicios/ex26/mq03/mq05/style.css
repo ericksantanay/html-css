@@ -18,7 +18,7 @@ header h1{
 }
 
 header menu{
-    display: block;
+    display: none;
 }
 
 header ul{
@@ -37,10 +37,6 @@ header ul{
 #hamburguer:hover{
     background-color: white;
     color: black;
-}
-
-header menu{
-    display: none;
 }
 
 menu > ul > li > a{
